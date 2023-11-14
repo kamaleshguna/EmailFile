@@ -210,6 +210,9 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			packageReferences = (
+				CDAF88F92B037CD900AE71F3 /* XCRemoteSwiftPackageReference "EmailFile" */,
+			);
 			productRefGroup = 57154274EC146FE9C98743DB36E52A70 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -518,6 +521,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CDAF88F92B037CD900AE71F3 /* XCRemoteSwiftPackageReference "EmailFile" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kamaleshguna/EmailFile.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

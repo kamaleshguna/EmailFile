@@ -13,7 +13,6 @@
 		CDAF88D12B03717C00AE71F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDAF88CF2B03717C00AE71F3 /* Main.storyboard */; };
 		CDAF88D32B03717D00AE71F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDAF88D22B03717D00AE71F3 /* Assets.xcassets */; };
 		CDAF88D62B03717D00AE71F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDAF88D42B03717D00AE71F3 /* LaunchScreen.storyboard */; };
-		CDAF88F02B03788C00AE71F3 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57279B8F84C5B6DAE2C1D77 /* Pods_Example.framework */; };
 		CDAF88F52B037ADD00AE71F3 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAF88F42B037ADD00AE71F3 /* Pods_Example.framework */; };
 		CDAF88F62B037ADD00AE71F3 /* Pods_Example.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CDAF88F42B037ADD00AE71F3 /* Pods_Example.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -44,7 +43,6 @@
 		CDAF88D72B03717D00AE71F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDAF88F42B037ADD00AE71F3 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5296EC1BAF442F262565FC6 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F57279B8F84C5B6DAE2C1D77 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +50,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDAF88F02B03788C00AE71F3 /* Pods_Example.framework in Frameworks */,
 				CDAF88F52B037ADD00AE71F3 /* Pods_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				CDAF88F42B037ADD00AE71F3 /* Pods_Example.framework */,
-				F57279B8F84C5B6DAE2C1D77 /* Pods_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -156,6 +152,9 @@
 				Base,
 			);
 			mainGroup = CDAF88BD2B03717C00AE71F3;
+			packageReferences = (
+				CDAF88F82B037C8B00AE71F3 /* XCRemoteSwiftPackageReference "EmailFile" */,
+			);
 			productRefGroup = CDAF88C72B03717C00AE71F3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -430,6 +429,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CDAF88F82B037C8B00AE71F3 /* XCRemoteSwiftPackageReference "EmailFile" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kamaleshguna/EmailFile.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = CDAF88BE2B03717C00AE71F3 /* Project object */;
 }
